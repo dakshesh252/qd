@@ -1,0 +1,74 @@
+body{
+    background-image: url(ca6b0f7177229f00b2ec1ea2f48385fd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1,p{
+    color : white;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+
+
+span{
+    color:rgb(255, 255, 255);
+    font-size: 20PX;
+}
+#score_span{
+    float:left;
+
+}
+
+#timer_span{
+    float:right;
+}
+
+
+#show_Sketch{
+    margin-left: 500px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    height: 50px;
+    width: 170px;
+    margin-top: -60px;
+    font-size: 20px;
+}
+
+#title{
+    margin-right: 0px;
+    width:150px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+
+canvas 
+  {
+    border:5px solid white;
+    border-radius:20px;
+    margin-top:150px;
+    box-shadow:5px 5px 5px grey;
+    box-shadow: 1px 1px 38px #ffffff;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px grey;}
+  to {box-shadow: 1px 1px 38px white;}
+
+}
+
+
+p, span
+  {
+    padding-top:10px;
+    font-family: 'Special Elite', fantasy;
+    font-size:25px;
+    
+  }
